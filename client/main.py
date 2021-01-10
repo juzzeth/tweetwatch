@@ -3,7 +3,7 @@ import scraper
 import time
 
 if __name__ == '__main__':
-    s = scraper.Scraper('troyhunt')
+    s = scraper.Scraper(sys.argv[1])
     if(s.user_id):
         s.get_tweets(5)
         while s.error is None:
