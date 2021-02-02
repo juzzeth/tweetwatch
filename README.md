@@ -1,3 +1,5 @@
+**Note:** The bearer token in client/constants.py is meant to be public. This is used by client side on Twitter and is not a security risk.
+
 # tweetwatch
 Monitor tweets of a specified Twitter account
 
